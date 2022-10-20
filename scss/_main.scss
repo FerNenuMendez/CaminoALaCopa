@@ -1,0 +1,112 @@
+@font-face {
+    font-family:'fifa';
+    src: url('../recursos/fuentes/fifawelcome1.3.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+};
+@font-face {
+    font-family:'a_mano';
+    src: url('../recursos/fuentes/AManoBoldensada.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+};
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__intro{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(108,180,238,0.49653364763874297) 100%),
+                url("../recursos/img/Trofeo_copa_america.webp");
+        background-size:cover;
+        width: auto;
+        height: 50rem;
+        margin-bottom: 3rem;
+        border-radius: 50%;
+        &__p{
+            margin-right: 3rem;
+            margin-left: 3rem;
+            text-align: center;
+            padding: 2rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            font-size: 1.5rem;
+        }
+    }
+    &__datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__btn{
+            margin-top: 10px;
+            padding: 10px;
+        }
+    }
+    &__libro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        &__h1{
+            font-family:'fifa';
+            font-size: 5rem;
+            text-shadow: #FC0 1px 0 10px;
+        }
+        &__h3{
+            font-family: 'a_mano';
+            font-size: 1.5rem;
+        }
+    }
+}
+.divHoja{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 1rem solid #72A0C1;
+    border-radius: 1rem;
+    box-shadow: 5px 4px 0px #002D62;
+    background: radial-gradient(circle, rgba(251,251,251,1) 0%, #6cb3ee96 100%),
+    url("../recursos/img/Trofeo_copa_america.webp");
+    background-size:cover;
+    &__p{
+        margin: 10px;
+        padding: 2px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    &__pp{
+        margin: 5px;
+        padding: 2px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+    &__img{
+        max-width: 45rem;
+        filter: blur(3px) grayscale(60%);
+        border-radius: 50%;
+        border: #002D62 10px solid;
+    }
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+}
+.escondido{
+    display: none;
+}
