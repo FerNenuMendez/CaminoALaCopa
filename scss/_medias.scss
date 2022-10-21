@@ -1,0 +1,31 @@
+@media(min-width:320px)and(max-width:540px){
+    .main{
+        &__libro{
+            &__h1{
+                text-align: center;
+                margin-bottom:1rem;
+            }
+        }
+        &__intro{
+            &__p{
+                font-size: medium;
+            }
+        }
+    }
+    .divHoja{
+        margin: 2px;
+        padding: 2px;
+        &__img{
+            max-width: 20rem;
+        }
+    }
+}
+@media(min-width:541px)and(max-width:1024px){
+    .divHoja{
+        margin: 2px;
+        padding: 2px;
+        &__img{
+            max-width: 20rem;
+        }
+    }
+}

@@ -17,7 +17,6 @@
     justify-content: center;
     &__intro{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -26,13 +25,12 @@
         background-size:cover;
         width: auto;
         height: 50rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         border-radius: 50%;
         &__p{
             margin-right: 3rem;
             margin-left: 3rem;
             text-align: center;
-            padding: 2rem;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
             font-size: 1.5rem;
         }
@@ -50,7 +48,6 @@
     &__libro{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         &__h1{
