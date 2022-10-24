@@ -24,11 +24,11 @@ const cambiarOpcion=()=>{
             divBotones.setAttribute("class","btnDiv")
             let opcion1 = document.createElement("button")
             opcion1.innerText = (filter.btn1)
-            opcion1.setAttribute("class","btn")
+            opcion1.setAttribute("class","btns")
             opcion1.setAttribute("id",filter.op1)
             let opcion2 = document.createElement("button")
             opcion2.innerText = (filter.btn2)
-            opcion2.setAttribute("class","btn")
+            opcion2.setAttribute("class","btns")
             opcion2.setAttribute("id",filter.op2)
     
             divBotones.append(opcion1, opcion2)
